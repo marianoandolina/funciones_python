@@ -11,7 +11,7 @@
 
 # --------------------------------
 # Aquí dentro definir la función ordenar
-# def ordenar(lista):
+def ordenar(lista):
 
 # --------------------------------
 
