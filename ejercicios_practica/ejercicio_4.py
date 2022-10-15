@@ -10,18 +10,20 @@
 # Ejercicios con funciones
 
 # --------------------------------
+
 # Aquí dentro definir la función que solicitará
 # el nombre de tres invitados
+
 def generar_invitados():
-    invitado_1 = input('Ingresar el nombre del primer invitado: ')
-    invitado_2 = input('Ingresar el nombre del segundo invitado: ')
-    invitado_3 = input('Ingresar el nombre del tercer invitado: ')
+    cant_invitados = 0
+    lista_invitados = []
+    while cant_invitados < 3:
+        invitados = input('Ingresar el nombre del primer invitado: ')
+        lista_invitados.append(invitados)
+        cant_invitados += 1
 
-    lista_invitados = [invitado_1, invitado_2, invitado_3]
-
+    
     return lista_invitados
-
-
 
 # --------------------------------
 
